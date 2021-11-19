@@ -8,6 +8,7 @@ html {
   line-height: 1.76;
   color: $black-text-color;
   background-color: $white-text-color;
+  overflow: overlay;
 
   @include respond-below($desktop) {
     &--nav-open {
